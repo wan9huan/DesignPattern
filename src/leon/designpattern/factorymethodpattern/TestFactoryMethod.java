@@ -1,8 +1,8 @@
 package leon.designpattern.factorymethodpattern;
 
-import leo.designpattern.factorymethodpattern.factory.Provider;
-import leo.designpattern.factorymethodpattern.factory.SendMailFactory;
-import leo.designpattern.factorymethodpattern.sender.Sender;
+import leon.designpattern.factorymethodpattern.factory.Provider;
+import leon.designpattern.factorymethodpattern.factory.SendMailFactory;
+import leon.designpattern.factorymethodpattern.sender.Sender;
 import org.junit.Test;
 
 public class TestFactoryMethod {
