@@ -1,10 +1,11 @@
 package leon.designpattern.abstractfactorypattern.factory;
 
-import leo.designpattern.abstractfactorypattern.color.Color;
-import leo.designpattern.abstractfactorypattern.shape.Circle;
-import leo.designpattern.abstractfactorypattern.shape.Rectangle;
-import leo.designpattern.abstractfactorypattern.shape.Shape;
-import leo.designpattern.abstractfactorypattern.shape.Square;
+
+import leon.designpattern.abstractfactorypattern.color.Color;
+import leon.designpattern.abstractfactorypattern.shape.Circle;
+import leon.designpattern.abstractfactorypattern.shape.Rectangle;
+import leon.designpattern.abstractfactorypattern.shape.Shape;
+import leon.designpattern.abstractfactorypattern.shape.Square;
 
 public class ShapeFactory extends AbstractFactory {
 

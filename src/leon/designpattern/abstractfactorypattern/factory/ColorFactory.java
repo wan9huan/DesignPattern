@@ -1,10 +1,11 @@
 package leon.designpattern.abstractfactorypattern.factory;
 
-import leo.designpattern.abstractfactorypattern.color.Blue;
-import leo.designpattern.abstractfactorypattern.color.Color;
-import leo.designpattern.abstractfactorypattern.color.Green;
-import leo.designpattern.abstractfactorypattern.color.Red;
-import leo.designpattern.abstractfactorypattern.shape.Shape;
+
+import leon.designpattern.abstractfactorypattern.color.Blue;
+import leon.designpattern.abstractfactorypattern.color.Color;
+import leon.designpattern.abstractfactorypattern.color.Green;
+import leon.designpattern.abstractfactorypattern.color.Red;
+import leon.designpattern.abstractfactorypattern.shape.Shape;
 
 public class ColorFactory extends AbstractFactory {
 

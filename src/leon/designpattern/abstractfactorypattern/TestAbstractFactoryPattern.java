@@ -1,9 +1,9 @@
 package leon.designpattern.abstractfactorypattern;
 
-import leo.designpattern.abstractfactorypattern.color.Color;
-import leo.designpattern.abstractfactorypattern.factory.AbstractFactory;
-import leo.designpattern.abstractfactorypattern.factory.FactoryProducer;
-import leo.designpattern.abstractfactorypattern.shape.Shape;
+import leon.designpattern.abstractfactorypattern.color.Color;
+import leon.designpattern.abstractfactorypattern.factory.AbstractFactory;
+import leon.designpattern.abstractfactorypattern.factory.FactoryProducer;
+import leon.designpattern.abstractfactorypattern.shape.Shape;
 import org.junit.Test;
 
 /**
