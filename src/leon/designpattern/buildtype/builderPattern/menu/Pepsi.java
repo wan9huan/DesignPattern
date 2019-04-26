@@ -1,0 +1,19 @@
+package leon.designpattern.buildtype.builderPattern.menu;
+
+import leon.designpattern.buildtype.builderPattern.menu.item.ColdDrink;
+
+public class Pepsi extends ColdDrink {
+
+    @Override
+    public float price() {
+        return 35.0f;
+    }
+
+    @Override
+    public String name() {
+        return "Pepsi";
+    }
+}
+
+
+
