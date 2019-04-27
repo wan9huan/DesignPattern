@@ -8,14 +8,6 @@ public class Proxy implements Action{
         this.proxyed = proxyed;
     }
 
-    public Action getProxyed() {
-        return proxyed;
-    }
-
-    public void setProxyed(Action proxyed) {
-        this.proxyed = proxyed;
-    }
-
     @Override
     public void action() {
         System.out.println("------代理类动作开始------");
