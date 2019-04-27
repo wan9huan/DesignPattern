@@ -6,7 +6,7 @@ package leon.designpattern.buildtype.factorymethodpattern.sender;
 public class SmsSender implements Sender {
 
     @Override
-    public void Send() {
+    public void send() {
         System.out.println("短信发送器");
     }
 

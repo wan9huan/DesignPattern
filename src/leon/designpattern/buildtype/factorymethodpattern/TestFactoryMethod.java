@@ -11,12 +11,14 @@ public class TestFactoryMethod {
     public void test(){
 
         //邮件发送器工厂
+        //工厂接收均可使用Provider引用
         Provider provider = new SendMailFactory();
 
         //邮件工厂提供对象
+        //发送器接收均可使用Sender引用
         Sender sender = provider.produce();
 
-        sender.Send();
+        sender.send();
 
     }
 }
